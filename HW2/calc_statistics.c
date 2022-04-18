@@ -99,6 +99,7 @@ int main(int argc, char *argv[]) {
 			}
 			fprintf(stat, "\n");
 		}
+		free(grades_arr);
 	}
 	fclose(stat);
 	fclose(fp);
